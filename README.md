@@ -32,4 +32,4 @@ The information stored in config.json is like below:
     "host": "opendata.c2kvf8hxkoaf.us-east-1.rds.amazonaws.com"
 }
 ```
-If you want to access the database, please contact me thanks!
+If you want to access the database, please contact me. Thanks!
