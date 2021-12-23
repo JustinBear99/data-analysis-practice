@@ -15,7 +15,10 @@ python3 pre_process.py
 Perform three default analysis, and return `pandas.DataFrame` or `dict`.
 
 ## Load
-Save the processed data back to the database with new tables.
+```
+python3 insert_to_db.py
+```
+Save the processed data back to the database with new tables `topActivity` and `cityCategories`.
 
 ## Visualization
 Open `visualization.ipynb` for data visualization and detailed exlpanation.
