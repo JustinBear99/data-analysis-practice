@@ -22,3 +22,14 @@ Save the processed data back to the database with new tables `topActivity` and `
 
 ## Visualization
 Open `visualization.ipynb` for data visualization and detailed exlpanation.
+
+## About config.json
+The information stored in config.json is like below:
+```
+{
+    "user": "username",
+    "password": "userpassword",
+    "host": "opendata.c2kvf8hxkoaf.us-east-1.rds.amazonaws.com"
+}
+```
+If you want to access the database, please contact me thanks!
