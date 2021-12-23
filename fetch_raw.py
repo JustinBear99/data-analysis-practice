@@ -174,7 +174,7 @@ def insert_data(cnx):
                 'uid': activity['UID'],
                 'version': float(activity['version']),
                 'title': activity['title'],
-                'category': i,
+                'category': int(activity['category']),
                 'showUnit': activity['showUnit'],
                 'discountInfo': activity['discountInfo'],
                 'descriptionFilterHtml': activity['descriptionFilterHtml'],
@@ -236,5 +236,4 @@ if __name__ == "__main__":
     create_database(cnx)
     create_tables(cnx)
     insert_data(cnx)
-    print('Work done. Closing all...')
     cnx.close()
